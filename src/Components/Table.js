@@ -8,7 +8,7 @@ export default function Table({charactersdata}) {
     }
   return (
     <div>
-        <h1>asdfhg</h1>
+        <h1>The Occupation</h1>
         <table>
             <tbody>
                {deleter.map((item,key) =>(
