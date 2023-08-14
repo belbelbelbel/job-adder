@@ -18,9 +18,12 @@ table {
     border: 1px solid #dddddd;
     padding: 15px;
   }
+  button {
+    background: lightblue;
+  }
   
   /* Alternate row background color */
-  tbody tr:nth-child(even) {
+  tbody tr:nth-child() {
     background-color: black;
   }
   
