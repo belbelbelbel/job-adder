@@ -1,0 +1,26 @@
+/* Reset default table styles */
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  /* Styling for table headers */
+  thead th {
+    background-color: gray;
+    text-align: left;
+    padding: 15px;
+    margin: 0rem 3rem;
+    border: 1px solid #dddddd;
+  }
+  
+  /* Styling for table data */
+  tbody td {
+    border: 1px solid #dddddd;
+    padding: 15px;
+  }
+  
+  /* Alternate row background color */
+  tbody tr:nth-child(even) {
+    background-color: black;
+  }
+  

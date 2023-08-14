@@ -1,22 +1,38 @@
-import logo from './logo.svg';
 import './App.css';
+import Table from './Components/Table';
 
 function App() {
+  const characters = [
+    {
+      name: 'Charlie',
+      job: 'Janitor',
+    },
+    {
+      name: 'Mac',
+      job: 'Bouncer',
+    },
+    {
+      name: 'Alex',
+      job: 'Influencer',
+    },
+    {
+      name: 'Ebuka',
+      job: 'Balleer',
+    },
+    {
+      name: 'davis',
+      job: 'Arguemetawyer',
+    },
+    {
+      name: 'Dennis',
+      job: 'Bartender',
+    },
+  ]
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+       <Table charactersdata={characters}/>
       </header>
     </div>
   );
